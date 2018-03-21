@@ -1,0 +1,252 @@
+input{
+    height: 25px;
+}
+#my_form{
+    float: left;
+    width: 100%;
+    height: 75%;
+  
+}
+#f, #i, #n, #gorod, #nomernp, #gorodd, #street, #apart, #index, #house{
+    height: 5%;
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#dost{
+      height: 5%;
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 5px;
+
+}
+
+#t{
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 20px;
+    width: 30%;
+    background: #92c1c7;
+    margin-top: 100px;
+    float: left;
+    }
+   
+    #f1, #i1, #n1, #r1, #gorod1, #gorodd1, #nomernp1, #street1, #house1, #apart1, #index1, #tex1{
+        font-family: monospace;
+        color: red;
+        margin-left: 5px;
+    }
+    #f, #i, #n, #tex, #gorod, #gorodd, #nomernp, #street, #house, #apart, #index, #tex{
+        height: 25px;
+        border: none;
+        background-color: #DCDCDC;
+    }
+#dost{
+    height: 25px;
+}  
+   
+
+#nym{
+   
+    background-color: gray;
+    color: white;
+    
+   
+}
+#nym1{
+    
+    background-color: red;
+    color: white;
+    
+}
+
+#xzkaknazvat{
+    background-color: #DCDCDC;
+}
+
+#knop{
+    width: 100%;
+    float: left;
+}
+
+#kypit{
+    height: auto;
+    width: 30%;
+    text-align: center;
+    background: red;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; 
+    float: right;
+    font-size: 15pt;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+/*///////////////////////////////////////////////////////*/
+.body{
+    max-width: none;
+    max-height: none;
+    height: 100%;
+    width: 100%;
+}
+
+#logo{
+    margin-bottom: 11px;
+    margin-left: 45px;
+}
+
+
+
+#shopping_list{
+    width: 100%;
+}
+
+#help{
+    float: left;
+    font-size: 14pt;
+    margin-left: 10%;
+}
+
+#checkout{
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; 
+    float: right;
+    margin-right: 84px;
+    font-size: 20pt;
+    margin-top: 50px;
+}
+#checkout1{
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 84px;
+    font-size: 20pt;
+    margin-top: 50px;
+}
+
+#tex{
+border-radius: 5px; padding: 10px; height: auto;
+}
+
+
+
+
+
+
+@media (max-width:800px) {
+
+#logo{
+margin-left: -10px;
+margin-right: -10px;
+        margin-bottom: 0;
+    }
+    #help{
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    #shopping_list{
+        font-size: 14pt;
+    }
+
+    #shopping_list{
+        margin-top: 105px;
+    }
+    #nym1{
+        background: gray;
+    }
+    #menu{
+       
+        background: white;
+     
+    }
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		
+	}
+	
+	tr { border-top: 1px solid black; }
+	
+	td:before  { 
+		/* Behave  like a "row" */
+		border: none;
+	
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+    
+    #checkout{
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+        margin-top: 10px;
+    }
+    #checkout1{
+        display: none;
+    }
+    
+    #non{
+        display: none;
+    }
+    #t{
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #f, #i, #n, #gorod, #nomernp, #gorodd, #street, #apart, #index, #house{
+    
+    border-radius: 0px;
+}
+
+#dost{
+     
+    border-radius: 0px;
+
+}
+
+    
+    #rok{
+        float: left;
+        width: 100%;
+    }
+    #tex{
+        border-radius: 0px;
+    }
+    
+   
+	
+}
+
+
+
+  
